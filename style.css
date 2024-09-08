@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.gudu {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a slight white background for better readability */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: greenyellow;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#message {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#gudi {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#gudi:hover {
+    background-color: #218838;
+}
+
+body {
+    /* background-color: hsl(50, 33%, 25%); */
+    /* background-color: #D0C4FE;; */
+    /* background-color: deepskyblue; */
+
+    /* background-image: linear-gradient(blue, red);
+    background-image: linear-gradient(to right, red, blue);
+    background-image: linear-gradient(to bottom, orange, white, green); */
+     background-image: radial-gradient(red, blue, green);
+}
